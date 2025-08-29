@@ -1,0 +1,14 @@
+site_name: ENIGMA infra
+theme:
+  name: material
+
+features:
+  - navigation.indexes
+nav:
+  - Welcome: index.md
+  - Blog:
+    - blog/index.md
+
+plugins:
+  - search
+  - blog
