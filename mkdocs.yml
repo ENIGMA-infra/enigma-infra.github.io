@@ -8,7 +8,17 @@ nav:
   - Welcome: index.md
   - Blog:
     - blog/index.md
+  - Team:
+    - team/people.md 
+  - PD Working Groups:
+    - wg/e_pd.md
+  - Reviews:
+    - reviews/testimonials.md
 
 plugins:
   - search
   - blog
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
