@@ -14,8 +14,8 @@ nav:
     - wg/e_pd.md
   - Reviews:
     - reviews/testimonials.md
-  - Projects:
-    - projects/open_science_toolstack.md
+  - Resources:
+    - resources/open_science_toolstack.md
 
 plugins:
   - search
