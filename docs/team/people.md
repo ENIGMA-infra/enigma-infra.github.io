@@ -5,7 +5,7 @@ Meet the people behind the project
 ## Principal investigators
 
 <div class="grid cards" markdown>
-- ![Lead Name](img/ysbrand.jpg){ width="80" } **[Ysbrand Van Der Werf](profile/jane-doe)**  
+- ![Lead Name](img/ysbrand.jpg){ width="80" } **[Ysbrand Van Der Werf](https://pure.amsterdamumc.nl/en/persons/ysbrand-van-der-werf)**  
   Amsterdam UMC, The Netherlands
 - ![Lead Name](img/jb.jpg){ width="80" } **[Jean-Baptiste Poline](https://neurodatascience.github.io/)**  
   McGill University, Montreal, Canada  
@@ -15,11 +15,11 @@ Meet the people behind the project
 ## Project leads
 
 <div class="grid cards" markdown>
-- ![Lead Name](img/eva.jpeg){ width="80" } **[Eva van Heese](profile/jane-doe)**  
+- ![Lead Name](img/eva.jpeg){ width="80" } **[Eva van Heese](https://pure.amsterdamumc.nl/en/persons/eva-van-heese)**  
   Amsterdam UMC, The Netherlands  
 - ![Lead Name](img/nikhil.png){ width="80" } **[Nikhil Bhagwat](https://neurodatascience.github.io/)**  
   McGill University, Montreal, Canada  
-- ![Lead Name](img/emile.jpeg){ width="80" } **[Emile d'Angremont](profile/jane-doe)**  
+- ![Lead Name](img/emile.jpeg){ width="80" } **[Emile d'Angremont](https://pure.amsterdamumc.nl/en/persons/emile-dangremont)**  
   Amsterdam UMC, The Netherlands  
 - ![Lead Name](img/sebastian.jpg){ width="80" } **[Sebastian Urchs](https://neurodatascience.github.io/)**  
   McGill University, Montreal, Canada  
