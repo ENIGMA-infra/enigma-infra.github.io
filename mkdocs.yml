@@ -8,7 +8,22 @@ nav:
   - Welcome: index.md
   - Blog:
     - blog/index.md
+  - Team:
+    - team/people.md 
+  - PD Working Groups:
+    - wg/e_pd.md
+  - Reviews:
+    - reviews/testimonials.md
+  - Resources:
+    - resources/open_science_toolstack.md
 
 plugins:
   - search
   - blog
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
