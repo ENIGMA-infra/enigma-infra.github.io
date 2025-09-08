@@ -7,22 +7,32 @@ This site provides an overview of the ENIGMA infrastructure project. Please refe
 -   :fontawesome-solid-people-group:{ .lg .middle } __Infra Team__
     
 
-    [:octicons-arrow-right-24: People behind the enigma-infra project](team/people)
+    [:octicons-arrow-right-24: People behind enigma-infra](team/people)
 
 -   :fontawesome-solid-hospital-wide:{ .lg .middle } __Enigma-PD sites__
     
 
     [:octicons-arrow-right-24: Global study populations](wg/e_pd)
 
+-   :fontawesome-solid-institution:{ .lg .middle } __Institute Partners__
+    
+
+    [:octicons-arrow-right-24: Letters of support](partners/LoS)
+
 -   :material-thumbs-up-down:{ .lg .middle } __Testimonials__
     
 
-    [:octicons-arrow-right-24: LoS and reviews from our early adopters!](reviews/testimonials)
+    [:octicons-arrow-right-24: Reviews from our early adopters!](reviews/testimonials)
 
 -   :material-brain:{ .lg .middle } __Resources__
     
 
     [:octicons-arrow-right-24: Neuroinformatic tools](resources/open_science_toolstack)
+
+-   :material-typewriter:{ .lg .middle } __Blogs__
+    
+
+    [:octicons-arrow-right-24: Progress updates](blogs/index)
 
 </div>
 
