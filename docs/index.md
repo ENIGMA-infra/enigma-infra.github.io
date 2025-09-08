@@ -22,7 +22,7 @@ This site provides an overview of the ENIGMA infrastructure project. Please refe
 -   :material-thumbs-up-down:{ .lg .middle } __Testimonials__
     
 
-    [:octicons-arrow-right-24: Reviews from our early adopters!](reviews/testimonials)
+    [:octicons-arrow-right-24: LoS and reviews from our early adopters!](reviews/testimonials)
 
 -   :material-brain:{ .lg .middle } __Resources__
     
