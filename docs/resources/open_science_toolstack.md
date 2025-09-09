@@ -1,6 +1,6 @@
 # Open Science Toolstack (OST)
 
-The OST consists of tools to faciliate FAIRification of neuroimaging data workflows in a decentralized multi-site setup. 
+The OST consists of tools to facilitate FAIRification of neuroimaging data workflows in a decentralized multi-site setup. 
 
 <div class="grid cards" markdown>
 - ![Lead Name](img/nipoppy.png){ width="80" } **[Nipoppy](https://nipoppy.readthedocs.io/)**  
