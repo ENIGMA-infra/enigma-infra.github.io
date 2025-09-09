@@ -1,20 +1,20 @@
-# ENIGMA-PD core team team
+# ENIGMA-PD Core Team
 
 Meet the people behind ENIGMA-PD!
 
 <div class="grid cards" markdown>
-- ![Lead Name](img/ysbrand.jpg){ width="80" } **[Ysbrand van der Werf](https://pure.amsterdamumc.nl/en/persons/ysbrand-van-der-werf)**  
+- ![Ysbrand](img/ysbrand.jpg){ width="80" } **[Ysbrand van der Werf](https://pure.amsterdamumc.nl/en/persons/ysbrand-van-der-werf)**  
   Amsterdam UMC, The Netherlands
-- ![Lead Name](img/max.jpg){ width="80" } **[Max Laansma](https://pure.amsterdamumc.nl/en/persons/max-laansma)**  
+- ![Max](img/max.jpg){ width="80" } **[Max Laansma](https://pure.amsterdamumc.nl/en/persons/max-laansma)**  
   Amsterdam UMC, The Netherlands
-- ![Lead Name](img/conor.jpg){ width="80" } **[Conor Owens-Walton](https://profiles.sc-ctsi.org/conor.owens-walton)**  
+- ![Conor](img/conor.jpg){ width="80" } **[Conor Owens-Walton](https://profiles.sc-ctsi.org/conor.owens-walton)**  
   University of Southern California, USA
-- ![Lead Name](img/eva.jpg){ width="80" } **[Eva van Heese](https://pure.amsterdamumc.nl/en/persons/eva-van-heese)**  
+- ![Eva](img/eva.jpg){ width="80" } **[Eva van Heese](https://pure.amsterdamumc.nl/en/persons/eva-van-heese)**  
   Amsterdam UMC, The Netherlands
-- ![Lead Name](img/paul.jpg){ width="80" } **[Paul Thompson](https://keck.usc.edu/faculty-search/paul-m-thompson/)**  
+- ![Paul](img/paul.jpg){ width="80" } **[Paul Thompson](https://keck.usc.edu/faculty-search/paul-m-thompson/)**  
   University of Southern California, USA
-- ![Lead Name](img/neda.jpg){ width="80" } **[Neda Jahanshad](https://keck.usc.edu/faculty-search/neda-jahanshad/)**  
+- ![Neda](img/neda.jpg){ width="80" } **[Neda Jahanshad](https://keck.usc.edu/faculty-search/neda-jahanshad/)**  
   University of Southern California, USA
-- ![Lead Name](img/emile.jpg){ width="80" } **[Emile d'Angremont](https://pure.amsterdamumc.nl/en/persons/emile-dangremont)**  
+- ![Emile](img/emile.jpg){ width="80" } **[Emile d'Angremont](https://pure.amsterdamumc.nl/en/persons/emile-dangremont)**  
   Amsterdam UMC, The Netherlands
 </div>
