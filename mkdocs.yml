@@ -15,20 +15,26 @@ nav:
       - Core team: wg/pd/e_pd_core_team.md
       - Sites: wg/pd/e_pd_sites.md
       - Ongoing Projects:
-        - FreeSurfer 7: wg/pd/e_pd_freesurfer7.md
-        - White matter lesions: wg/pd/e_pd_wml.md
-        - Imaging-Genetics: wg/pd/e_pd_imaging_genetics.md
+        - Update to FreeSurfer 7: wg/pd/ongoing/e_pd_freesurfer7.md
+        - White matter lesions: wg/pd/ongoing/e_pd_wml.md
+        - Imaging-Genetics: wg/pd/ongoing/e_pd_imaging_genetics.md
     - ENIGMA-Tremor:
       - Core team: wg/tremor/e_tremor_core_team.md
       - Sites: wg/tremor/e_tremor_sites.md
       - Ongoing Projects:
-        - FreeSurfer 7: wg/tremor/e_tremor_freesurfer7.md
+        - Structural analysis: wg/tremor/ongoing/e_tremor_struct.md
   - Reviews:
     - reviews/testimonials.md
   - Partners:
     - partners/LoS.md
   - Resources:
-    - resources/open_science_toolstack.md
+    - Open Science Toolstack: resources/open_science_toolstack.md
+    - Setting up Nipoppy: resources/setting_up_nipoppy.md
+    - Processing: 
+      - FreeSurfer 7: resources/processing/freesurfer7.md
+      - FreeSurfer subsegmentations: resources/processing/freesurfer_subseg.md
+      - FreeSurfer Quality Control toolbox: resources/processing/fsqc.md
+    - Quality Assessment: resources/qa.md
 
 plugins:
   - search
