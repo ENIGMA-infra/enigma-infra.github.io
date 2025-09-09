@@ -10,8 +10,10 @@ nav:
     - blog/index.md
   - Team:
     - team/people.md 
-  - PD Working Groups:
+  - ENIGMA-PD:
     - wg/e_pd.md
+  - ENIGMA-Tremor:
+    - wg/e_tremor.md
   - Reviews:
     - reviews/testimonials.md
   - Partners:
