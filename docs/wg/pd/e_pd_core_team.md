@@ -2,6 +2,7 @@
 
 Meet the people behind ENIGMA-PD!
 
+<div class="grid cards" markdown>
 - ![Lead Name](img/ysbrand.jpg){ width="80" } **[Ysbrand van der Werf](https://pure.amsterdamumc.nl/en/persons/ysbrand-van-der-werf)** Amsterdam UMC, The Netherlands
 - ![Lead Name](img/max.jpg){ width="80" } **[Max Laansma](https://pure.amsterdamumc.nl/en/persons/max-laansma)** Amsterdam UMC, The Netherlands
 - ![Lead Name](img/conor.jpg){ width="80" } **[Conor Owens-Walton](https://profiles.sc-ctsi.org/conor.owens-walton)** University of Southern California, USA
