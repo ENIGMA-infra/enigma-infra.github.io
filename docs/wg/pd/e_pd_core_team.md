@@ -7,7 +7,7 @@ Meet the people behind ENIGMA-PD!
   Amsterdam UMC, The Netherlands
 - ![Max](img/max.jpeg){ width="80" } **[Max Laansma](https://pure.amsterdamumc.nl/en/persons/max-laansma)**  
   Amsterdam UMC, The Netherlands
-- ![Conor](img/conor.jpeg){ width="80" } **[Conor Owens-Walton](https://profiles.sc-ctsi.org/conor.owens-walton)**  
+- ![Conor](img/conor.jpg){ width="80" } **[Conor Owens-Walton](https://profiles.sc-ctsi.org/conor.owens-walton)**  
   University of Southern California, USA
 - ![Eva](img/eva.jpeg){ width="80" } **[Eva van Heese](https://pure.amsterdamumc.nl/en/persons/eva-van-heese)**  
   Amsterdam UMC, The Netherlands
