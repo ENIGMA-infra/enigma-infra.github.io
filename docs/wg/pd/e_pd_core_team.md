@@ -11,7 +11,7 @@ Meet the people behind ENIGMA-PD!
   University of Southern California, USA
 - ![Eva](img/eva.jpeg){ width="80" } **[Eva van Heese](https://pure.amsterdamumc.nl/en/persons/eva-van-heese)**  
   Amsterdam UMC, The Netherlands
-- ![Paul](img/paul.png{ width="80" } **[Paul Thompson](https://keck.usc.edu/faculty-search/paul-m-thompson/)**  
+- ![Paul](img/paul.jpeg){ width="80" } **[Paul Thompson](https://keck.usc.edu/faculty-search/paul-m-thompson/)**  
   University of Southern California, USA
 - ![Neda](img/neda.jpeg){ width="80" } **[Neda Jahanshad](https://keck.usc.edu/faculty-search/neda-jahanshad/)**  
   University of Southern California, USA
