@@ -10,10 +10,19 @@ nav:
     - blog/index.md
   - Team:
     - team/people.md 
-  - ENIGMA-PD:
-    - wg/e_pd.md
-  - ENIGMA-Tremor:
-    - wg/e_tremor.md
+  - Working Groups:
+    - ENIGMA-PD:
+      - Core team: wg/pd_core_team.md
+      - Sites: wg/pd_sites.md
+      - Projects:
+        - FreeSurfer 7: wg/pd_freesurfer7.md
+        - White matter lesions: wg/pd_wml.md
+        - Imaging-Genetics: wg/pd_imaging_genetics.md
+    - ENIGMA-Tremor:
+      - Core team: wg/tremor_core_team.md
+      - Sites: wg/tremor_sites.md
+      - Projects:
+        - FreeSurfer 7: wg/tremor_freesurfer7.md
   - Reviews:
     - reviews/testimonials.md
   - Partners:
