@@ -12,7 +12,7 @@ This site provides an overview of the ENIGMA infrastructure project. Please refe
 -   :fontawesome-solid-hospital-wide:{ .lg .middle } __Enigma-PD sites__
     
 
-    [:octicons-arrow-right-24: Global study populations](wg/e_pd)
+    [:octicons-arrow-right-24: Global study populations](wg/pd/e_pd_sites)
 
 -   :fontawesome-solid-institution:{ .lg .middle } __Institute Partners__
     
