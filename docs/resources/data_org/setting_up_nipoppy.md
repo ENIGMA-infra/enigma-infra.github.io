@@ -7,16 +7,16 @@ Nipoppy is a lightweight framework for standardized data organization and proces
 The figure shows the expected outcomes and corresponding processing steps - most of which can be performed using the Nipoppy framework and helper Python package. We strongly recommend adoption of Nipoppy tools to simplify coordination and ensure reproducibility of this end-to-end process across all sites. 
 ![enigma-nipoppy-FS7-upgrade-overview](https://github.com/user-attachments/assets/aae8449c-58cf-4889-92de-979f79082e28)
 
-The ongoing collaboration between the ENIGMA working groups and Nipoppy team has streamlined data curation, processing, and analysis workflows, which significantly simplifies tracking of data availability, addition of new pipelines and upgrading of existing pipelines. The ENIGMA-PD and Nipoppy team is available to support and guide users through the process of implementing the framework, ensuring a smooth transition. To join the Nipoppy support community, we recommend joining their [Discord channel](https://discord.gg/dQGYADCCMB). Here you can ask questions and find answers while working with Nipoppy. 
+The ongoing collaboration between the ENIGMA working groups and Nipoppy team has streamlined data curation, processing, and analysis workflows, which significantly simplifies tracking of data availability, addition of new pipelines and upgrading of existing pipelines. The ENIGMA and Nipoppy teams are available to support and guide users through the process of implementing the framework, ensuring a smooth transition. To join the Nipoppy support community, we recommend joining the [Discord channel](https://discord.gg/dQGYADCCMB). Here you can ask questions and find answers while working with Nipoppy. 
 
-**In the context of ENIGMA working groups, we will primairly use Nipoppy to help you with BIDSification and to facilitate processing with pipelines (such as FreeSurfer processing).**
+**In the context of ENIGMA working groups, we will primairly use Nipoppy to help you with BIDSification and to facilitate easy processing with pipelines (such as FreeSurfer processing).**
 
 For more information, see the [Nipoppy documentation](https://nipoppy.readthedocs.io/en/stable/index.html).
 
 ## Getting started
 To install Nipoppy, we refer to the [Installation page](https://nipoppy.readthedocs.io/en/stable/overview/installation.html). 
 
-Once Nipoppy is successfully installed, you will need to create a Nipoppy dataset and populate it with your data. There are a few different starting points depending on the current state of your dataset. If you have your data already in BIDS format, click [here](#starting-with-bidsified-data). If you have DICOM of NIFTI files that are not yet in BIDS, continue below. If you're not sure what BIDS is or if you're wondering why you should convert your data into BIDS at all, you can find more info [here](../../resources/how_to_guides/BIDS_info.md).
+Once Nipoppy is successfully installed, you will need to create a Nipoppy dataset and populate it with your data. There are a few different starting points depending on the current state of your dataset. If you have your data already in BIDS format, click [here](#starting-with-bidsified-data). If you have DICOM of NIFTI files that are not yet in BIDS, continue below. If you're not sure what BIDS is or if you're wondering why you should convert your data into BIDS at all, you can find more info [here](/how_to_guides/BIDS_info.md).
 
 ### Starting from source data (either DICOMs or NIfTIs that are *not yet* in BIDS)
 
@@ -27,7 +27,7 @@ This is the scenario assumed by the Nipoppy [Quickstart page](https://nipoppy.re
 
 Note: if your dataset is cross-sectional (i.e. only has one session), you still need to create a `session_id` for the manifest. In this case the value would be the same for all participants.
 
-When you reach the end of the Quickstart, it is time to [copy and reorganize](https://nipoppy.readthedocs.io/en/stable/how_to_guides/user_guide/organizing_imaging.html) your raw imaging data to prepare them for BIDS conversion. Once this is done, you can find how to perform the BIDSification within the Nipoppy framework [here](https://nipoppy.readthedocs.io/en/stable/how_to_guides/user_guide/bids_conversion.html). We recommend applying a containerized BIDS-conversion pipeline that can be run within Nipoppy. [Here](../../resources/how_to_guides/Container_platforms.md) you can find how to download containers and [here](../../resources/how_to_guides/getting_ENIGMA-PD_pipeline_config_files.md) you can find how to run them within Nipoppy.
+When you reach the end of the Quickstart, it is time to [copy and reorganize](https://nipoppy.readthedocs.io/en/stable/how_to_guides/user_guide/organizing_imaging.html) your raw imaging data to prepare them for BIDS conversion. Once this is done, you can find how to perform the BIDSification within the Nipoppy framework [here](https://nipoppy.readthedocs.io/en/stable/how_to_guides/user_guide/bids_conversion.html). We recommend applying a containerized BIDS-conversion pipeline that can be run within Nipoppy. [Here](../how_to_guides/container_platforms.md) you can find how to download containers and [here](../how_to_guides/pipeline_config_files_nipoppy.md) you can find how to run them within Nipoppy.
 
 ### Starting with BIDSified data
 
