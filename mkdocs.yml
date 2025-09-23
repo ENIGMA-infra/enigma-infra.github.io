@@ -9,14 +9,10 @@ features:
   - navigation.indexes
 nav:
   - Welcome: index.md
-  - Blog:
-    - blog/index.md
   - Team:
     - team/people.md 
   - Working Groups:
-    - World map: wg/sites.md
-    - ENIGMA-PD: wg/e_pd.md
-    - ENIGMA-Tremor: wg/e_tremor.md
+    - Sites: wg/sites.md
   - Reviews:
     - reviews/testimonials.md
   - Partners:

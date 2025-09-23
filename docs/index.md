@@ -9,7 +9,7 @@ This site provides an overview of the ENIGMA infrastructure project. Please refe
 
     [:octicons-arrow-right-24: People behind enigma-infra](team/people.md)
 
--   :fontawesome-solid-hospital-wide:{ .lg .middle } __Enigma-PD sites__
+-   :fontawesome-solid-hospital-wide:{ .lg .middle } __Enigma sites__
     
 
     [:octicons-arrow-right-24: Global study populations](wg/sites.md)
