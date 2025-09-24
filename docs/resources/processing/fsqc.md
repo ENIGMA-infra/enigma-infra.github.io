@@ -48,4 +48,4 @@ nipoppy track-processing --pipeline fsqc --pipeline-step process-tracking --data
 ```
 and checking `processing_status.tsv` under the `derivatives` folder.
 
-When all required files are there, you are ready to move on to the [visual inspection](../../resources/visual_qa/qa_md)!
+When all required files are there, you are ready to move on to the [visual inspection](../../resources/visual_qa/qa.md)!
