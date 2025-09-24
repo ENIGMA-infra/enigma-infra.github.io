@@ -60,7 +60,7 @@ nipoppy process --pipeline freesurfer_subseg --pipeline-version 1.0 --dataset <d
 ```
 **Note:** In case you want to submit a batch job to process all participants/sessions, you can find more info [here](../../resources/processing/freesurfer7.md#run-pipeline).
 
-## Track pipeline output
+### Track pipeline output
 Use the `nipoppy track-processing` command to check which participants/sessions have complete output:
 ```bash
 nipoppy track-processing --pipeline freesurfer_subseg --dataset <dataset_root>
