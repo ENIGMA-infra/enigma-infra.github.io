@@ -42,7 +42,7 @@ This should initiate the FreeSurfer 7 segmentation of your T1-weighted images! Y
 1. generating a list of "remaining" participants to be processed for your job-subission script: `nipoppy process --pipeline fmriprep --pipeline-version 24.1.1 --dataset <dataset_root> --write-list <path_to_participant_list>`
 2. automatically submitting HPC jobs for you with additional configuration (more info [here](https://nipoppy.readthedocs.io/en/latest/how_to_guides/parallelization/hpc_scheduler.html))
 
-## Track pipeline output
+### Track pipeline output
 The `nipoppy track-processing` command can help keep track of which participants/sessions have all the expected output files for a given processing pipeline. See [here](https://nipoppy.readthedocs.io/en/latest/how_to_guides/tracking/index.html) for more information. 
 ```bash
 nipoppy track-processing --pipeline fmriprep --dataset <dataset_root>
