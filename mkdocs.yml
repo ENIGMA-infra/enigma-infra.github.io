@@ -14,18 +14,8 @@ nav:
   - Team:
     - team/people.md 
   - Working Groups:
-    - ENIGMA-PD:
-      - Core team: wg/pd/e_pd_core_team.md
-      - Sites: wg/pd/e_pd_sites.md
-      - Ongoing Projects:
-        - Update to FreeSurfer 7: wg/pd/ongoing/e_pd_freesurfer7.md
-        - White matter lesions: wg/pd/ongoing/e_pd_wml.md
-        - Imaging-Genetics: wg/pd/ongoing/e_pd_imaging_genetics.md
-    - ENIGMA-Tremor:
-      - Core team: wg/tremor/e_tremor_core_team.md
-      - Sites: wg/tremor/e_tremor_sites.md
-      - Ongoing Projects:
-        - Structural analysis: wg/tremor/ongoing/e_tremor_struct.md
+    - ENIGMA-PD: https://enigma-infra.github.io/ENIGMA-PD/
+    - ENIGMA-Tremor: https://enigma-infra.github.io/ENIGMA-Tremor/
   - Reviews:
     - reviews/testimonials.md
   - Partners:
