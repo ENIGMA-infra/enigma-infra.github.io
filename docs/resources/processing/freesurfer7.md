@@ -38,7 +38,7 @@ nipoppy process --pipeline fmriprep --pipeline-version 24.1.1 --dataset <dataset
 ```
 This should initiate the FreeSurfer 7 segmentation of your T1-weighted images! You can also do a dry-run first by adding `--simulate` to your command. See all `nipoppy process` options [here](https://nipoppy.readthedocs.io/en/latest/cli_reference/process.html)
 
-**Note:** the command above will run all the participants and sessions in a loop, which may be inefficient. If you're using an HPC, you may want to submit a batch job to process all participants/sessions. Nipoppy can help you do this by
+**Note:** the command above will run all the participants and sessions in a loop, which may be inefficient. If you're using an HPC, you may want to submit a batch job to process all participants/sessions. Nipoppy can help you do this by:
 1. generating a list of "remaining" participants to be processed for your job-subission script: `nipoppy process --pipeline fmriprep --pipeline-version 24.1.1 --dataset <dataset_root> --write-list <path_to_participant_list>`
 2. automatically submitting HPC jobs for you with additional configuration (more info [here](https://nipoppy.readthedocs.io/en/latest/how_to_guides/parallelization/hpc_scheduler.html))
 
