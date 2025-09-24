@@ -3,8 +3,8 @@
 The OST consists of tools to facilitate FAIRification of neuroimaging data workflows in a decentralized multi-site setup. 
 
 <div class="grid cards" markdown>
-- ![Nipoppy logo](img/nipoppy.svg){ width="80" } **[Nipoppy](https://nipoppy.readthedocs.io/)**  
+- ![Nipoppy logo](../assests/logos/nipoppy.svg){ width="80" } **[Nipoppy](https://nipoppy.readthedocs.io/)**  
   A lightweight framework for standardized organization and processing 
-- ![Neurobagel logo](img/neurobagel.png){ width="80" } **[Neurobagel](https://neurobagel.org/)**  
+- ![Neurobagel logo](../assests/logos/neurobagel.png){ width="80" } **[Neurobagel](https://neurobagel.org/)**  
   An ecosystem for distributed dataset harmonization and search
 </div>
