@@ -15,7 +15,7 @@ apptainer build fmriprep_24.1.1.sif \
 
 Make sure that you store the container in the containers folder that is [referenced in your global config file](../../resources/how_to_guides/container_platforms.md#storing-container-images).
 
-For more information on fMRIPrep, see the [fMRIPrep documentation](https://fmriprep.org/en/stable/)
+For more information on fMRIPrep, see the [fMRIPrep documentation](https://fmriprep.org/en/stable/).
 
 ## Setting up configuration
 Next, we will need to install the fMRIPrep pipeline within Nipoppy. You can do this by simply running:
