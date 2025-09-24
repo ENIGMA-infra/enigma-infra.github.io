@@ -5,7 +5,7 @@ This guide assumes that you have:
 - [installed Nipoppy and organized your data in BIDS](../../resources/data_org/setting_up_nipoppy.md)
 - [Apptainer available as container platform](../../resources/how_to_guides/container_platforms.md)
 
-## Pulling container
+## Pull container
 We will apply the FreeSurfer functionalities that are included in the fMRIPrep pipeline. You can pull the fMRIPrep container in the following way:
 
 ```bash
@@ -17,7 +17,7 @@ Make sure that you store the container in the containers folder that is [referen
 
 For more information on fMRIPrep, see the [fMRIPrep documentation](https://fmriprep.org/en/stable/).
 
-## Setting up configuration
+## Set up configuration
 Next, we will need to install the fMRIPrep pipeline within Nipoppy. You can do this by simply running:
 
 ```bash
