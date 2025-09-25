@@ -5,7 +5,7 @@ Nipoppy is a lightweight framework for standardized data organization and proces
 
 ## Why?
 The figure shows the expected outcomes and corresponding processing steps - most of which can be performed using the Nipoppy framework and helper Python package. We strongly recommend adoption of Nipoppy tools to simplify coordination and ensure reproducibility of this end-to-end process across all sites. 
-![enigma-nipoppy-FS7-upgrade-overview](/docs/assets/img/nipoppy_processing_workflow.jpg)
+![enigma-nipoppy-FS7-upgrade-overview](../../assets/images/nipoppy_processing_workflow.jpg)
 
 The ongoing collaboration between the ENIGMA working groups and Nipoppy team has streamlined data curation, processing, and analysis workflows, which significantly simplifies tracking of data availability, addition of new pipelines and upgrading of existing pipelines. The ENIGMA and Nipoppy teams are available to support and guide users through the process of implementing the framework, ensuring a smooth transition. To join the Nipoppy support community, we recommend joining the [Discord channel](https://discord.gg/dQGYADCCMB). Here you can ask questions and find answers while working with Nipoppy. 
 
@@ -16,7 +16,7 @@ For more information, see the [Nipoppy documentation](https://nipoppy.readthedoc
 ## Getting started
 To install Nipoppy, we refer to the [Installation page](https://nipoppy.readthedocs.io/en/stable/overview/installation.html). 
 
-Once Nipoppy is successfully installed, you will need to create a Nipoppy dataset and populate it with your data. There are a few different starting points depending on the current state of your dataset. If you have your data already in BIDS format, click [here](#starting-with-bidsified-data). If you have DICOM of NIFTI files that are not yet in BIDS, continue below. If you're not sure what BIDS is or if you're wondering why you should convert your data into BIDS at all, you can find more info [here](/how_to_guides/BIDS_info.md).
+Once Nipoppy is successfully installed, you will need to create a Nipoppy dataset and populate it with your data. There are a few different starting points depending on the current state of your dataset. If you have your data already in BIDS format, click [here](#starting-with-bidsified-data). If you have DICOM of NIFTI files that are not yet in BIDS, continue below. If you're not sure what BIDS is or if you're wondering why you should convert your data into BIDS at all, you can find more info [here](../open_science_tools/BIDS_info.md).
 
 ### Starting from source data (either DICOMs or NIfTIs that are *not yet* in BIDS)
 

@@ -55,7 +55,7 @@ For automatic extraction of the cortical thickness, cortical surface area and su
 ```bash
 nipoppy pipeline install --dataset <dataset_root> 15427856
 ```
-Remember to define the freesurfer licens file path in your global config file under the newly installed pipeline. Then, you can simply run 
+Remember to define the freesurfer license file path in your global config file under the newly installed pipeline. Then, you can simply run 
 ```bash
 nipoppy extract --pipeline fs_stats --dataset <dataset_root>
 ```

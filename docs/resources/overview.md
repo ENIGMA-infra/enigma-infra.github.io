@@ -16,4 +16,4 @@ Check out these resources for simplifying data curation, processing using Nipopp
 
 </div>
 
-### Learn more about the [open-science-tools](./open_science_tools/open_science_toolstack.md) that can faciliated FAIRification of your data workflows! 
+### Learn more about the [open-science-tools](./open_science_tools/open_science_toolstack.md) that can facilitate FAIRification of your data workflows! 

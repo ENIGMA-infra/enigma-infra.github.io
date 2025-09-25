@@ -70,4 +70,4 @@ nipoppy track-processing --pipeline freesurfer_subseg --dataset <dataset_root>
 This helps you confirm whether the pipeline ran successfully across your dataset (again, check `processing_status.tsv` under the `derivatives` folder).
 
 ## Extract pipeline output
-The pipeline for extraction of data from the subsegmentation is under construction. Stay tuned for updates! You can already [extract data from the standard FreeSurfer 7 segementation](./freesurfer7.md#extract-pipeline-output) and continue with [quality control](./fsqc.md).
+The pipeline for extraction of data from the subsegmentation is under construction. Stay tuned for updates! You can already [extract data from the standard FreeSurfer 7 segmentation](./freesurfer7.md#extract-pipeline-output) and continue with [quality control](./fsqc.md).
