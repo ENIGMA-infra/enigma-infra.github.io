@@ -3,7 +3,7 @@
 ## Overview of containers
 We will be using containerized pipelines for data processing. This means that they are self-contained software environments that package all the tools, dependencies, and code needed to run each step of a data analysis pipeline reproducibly and consistently across systems. To download and run containers, you need a container platform, either Apptainer/Singularity or Docker. We strongly suggest Apptainer/Singularity, which is fully supported by Nipoppy. Docker can be used if you have admin rights to the computer/server you are using, or you work on something other than a Linux system (like a Mac). Using Nipoppy with Docker is possible though will likely require additional help -- reach out to us on our [Discord channel](https://discord.gg/dQGYADCCMB) and we would be happy to chat!
 
-![container_infographic](../img/container_infographic.png)
+![container_infographic](../../assets/img/container_infographic.png)
 *Image generated using Microsoft Copilot.*
 
 ## Checking for an existing installation
