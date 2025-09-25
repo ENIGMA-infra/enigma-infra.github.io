@@ -27,7 +27,7 @@ This is the scenario assumed by the Nipoppy [Quickstart page](https://nipoppy.re
 
 Note: if your dataset is cross-sectional (i.e. only has one session), you still need to create a `session_id` for the manifest. In this case the value would be the same for all participants.
 
-When you reach the end of the Quickstart, it is time to [copy and reorganize](https://nipoppy.readthedocs.io/en/stable/how_to_guides/user_guide/organizing_imaging.html) your raw imaging data to prepare them for BIDS conversion. Once this is done, you can find how to perform the BIDSification within the Nipoppy framework [here](https://nipoppy.readthedocs.io/en/stable/how_to_guides/user_guide/bids_conversion.html). We recommend applying a containerized BIDS-conversion pipeline that can be run within Nipoppy. [Here](/docs/resources/how_to_guides/container_platforms.md) you can find how to download containers and [here](/docs/resources/how_to_guides/pipeline_config_files_nipoppy.md) you can find how to run them within Nipoppy.
+When you reach the end of the Quickstart, it is time to [copy and reorganize](https://nipoppy.readthedocs.io/en/stable/how_to_guides/user_guide/organizing_imaging.html) your raw imaging data to prepare them for BIDS conversion. Once this is done, you can find how to perform the BIDSification within the Nipoppy framework [here](https://nipoppy.readthedocs.io/en/stable/how_to_guides/user_guide/bids_conversion.html). We recommend applying a containerized BIDS-conversion pipeline that can be run within Nipoppy. [Here](../open_science_tools/container_platforms.md) you can find how to download containers and [here](./pipeline_config_files_nipoppy.md) you can find how to run them within Nipoppy.
 
 ### Starting with BIDSified data
 

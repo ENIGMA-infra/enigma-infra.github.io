@@ -2,8 +2,9 @@
 
 ## Prerequisites
 This guide assumes that you have:
-- [installed Nipoppy and organized your data in BIDS](../../resources/data_org/setting_up_nipoppy.md)
-- [Apptainer available as container platform](../../resources/how_to_guides/container_platforms.md)
+
+- [installed Nipoppy and organized your data in BIDS](./setting_up_nipoppy.md)
+- [Apptainer available as container platform](../open_science_tools/container_platforms.md)
 
 ## Pull container
 We will apply the FreeSurfer functionalities that are included in the fMRIPrep pipeline. You can pull the fMRIPrep container in the following way:
@@ -13,7 +14,7 @@ apptainer build fmriprep_24.1.1.sif \
                     docker://nipreps/fmriprep:24.1.1
 ```
 
-Make sure that you store the container in the containers folder that is [referenced in your global config file](../../resources/how_to_guides/container_platforms.md#storing-container-images).
+Make sure that you store the container in the containers folder that is [referenced in your global config file](../open_science_tools/container_platforms.md#storing-container-images).
 
 For more information on fMRIPrep, see the [fMRIPrep documentation](https://fmriprep.org/en/stable/).
 
@@ -24,12 +25,12 @@ Next, we will need to install the fMRIPrep pipeline within Nipoppy. You can do t
 nipoppy pipeline install --dataset <dataset_root> 15427833
 ```
 
-15427833 is the Zenodo ID for the Nipoppy configuration files for fmriprep 24.1.1. Read more about this step [here](../../resources/how_to_guides/getting_ENIGMA-PD_pipeline_config_files.md).
+15427833 is the Zenodo ID for the Nipoppy configuration files for fmriprep 24.1.1. Read more about this step [here](./getting_ENIGMA-PD_pipeline_config_files.md).
 
 Once the pipeline is installed, open the global config file and check whether the correct fMRIPrep version is included under `PIPELINE_VARIABLES`.
 The following paths should be replaced here under the correct version of the fMRIPrep pipeline in the global config file:
 - `<FREESURFER_LICENSE_FILE>` (required to run FreeSurfer; you can get a FreeSurfer licence for free at [the FreeSurfer website](https://surfer.nmr.mgh.harvard.edu/registration.html))
-- `<TEMPLATEFLOW_HOME>` (see [here](../../resources/how_to_guides/Templateflow_info.md) for more info on Templateflow)
+- `<TEMPLATEFLOW_HOME>` (see [here](./Templateflow_info.md) for more info on Templateflow)
 
 ## Run pipeline
 Finally, simply run the following line of code:
@@ -50,7 +51,7 @@ nipoppy track-processing --pipeline fmriprep --dataset <dataset_root>
 Running this command will update the `processing_status.tsv` under the `derivatives` folder.
 
 ## Extract pipeline output
-For automatic extraction of the cortical thickness, cortical surface area and subcortical volume into .tsv files, you can use another [Nipoppy pipeline](../../resources/how_to_guides/getting_ENIGMA-PD_pipeline_config_files.md), called `fs_stats`. The Zenodo ID for this pipeline is 15427856, so you can install it with the following command:
+For automatic extraction of the cortical thickness, cortical surface area and subcortical volume into .tsv files, you can use another [Nipoppy pipeline](./getting_ENIGMA-PD_pipeline_config_files.md), called `fs_stats`. The Zenodo ID for this pipeline is 15427856, so you can install it with the following command:
 ```bash
 nipoppy pipeline install --dataset <dataset_root> 15427856
 ```
@@ -60,4 +61,4 @@ nipoppy extract --pipeline fs_stats --dataset <dataset_root>
 ```
 to get things going. You can find the extracted data under `<dataset_root>/derivatives/freesurfer/7.3.2/idp/`.
 
-Did you complete all FreeSurfer 7 processing and data extraction? Great job! You can now move on to the [subsegmentation](../../resources/processing/freesurfer_subseg.md), or go straight to [quality control](../../resources/processing/fsqc.md).
+Did you complete all FreeSurfer 7 processing and data extraction? Great job! You can now move on to the [subsegmentation](./freesurfer_subseg.md), or go straight to [quality control](./fsqc.md).

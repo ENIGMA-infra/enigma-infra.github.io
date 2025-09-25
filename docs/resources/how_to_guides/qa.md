@@ -17,4 +17,4 @@ Quality checking is essential to make sure the output that you have produced is 
   - Scroll through the subjects to confirm all images load and no data is missing.  
 - Click on any image to zoom in, or right-click and choose “Open in new tab” and inspect details more closely.
 
-You can find the updated ENIGMA-PD QC instructions for visual inspection [here](/docs/resources/how_to_guides/ENIGMA_visual_QC_instructions.md).
+You can find the updated ENIGMA-PD QC instructions for visual inspection [here](./ENIGMA_visual_QC_instructions.md).
