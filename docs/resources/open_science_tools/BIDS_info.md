@@ -8,6 +8,7 @@ Here are the core principles for organizing your neuroimaging data in BIDS forma
 - Validate the structure
 
 Resources from the BIDS community offer guidance on organizing your data, and BIDS converters can help automate this process, saving time and reducing manual errors. We recommend using Dcm2Bids (for DICOM's) and BIDScoin (for NIfTI's).
+
 - [BIDS documentation](https://bids-website.readthedocs.io/en/latest/index.html)
-- [Recommended converter; BIDScoin](https://bidscoin.readthedocs.io/en/stable/)
+- [Recommended converter: BIDScoin](https://bidscoin.readthedocs.io/en/stable/)
 - [BIDS tutorials](https://www.youtube.com/watch?v=pAv9WuyyF3g&list=PLtJYlrqQ3YK_M4YgkUx6akJqlHF1R7A5g)

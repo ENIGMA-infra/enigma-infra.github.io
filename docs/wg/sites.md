@@ -6,14 +6,14 @@
     
     [:fontawesome-solid-globe:{ style="color: #000000;" } Enigma-PD website](https://enigma-infra.github.io/ENIGMA-PD/) 
 
-    :fontawesome-solid-envelope:{ style="color: #000000;" } Contact: enigma-pd@amsterdamumc.nl
+    :fontawesome-solid-envelope:{ style="color: #000000;" } enigma-pd@amsterdamumc.nl
 
 
 -   :fontawesome-solid-people-group:{ .lg .middle } __Tremor__
     
     [:fontawesome-solid-globe:{ style="color: #000000;" } Enigma-Tremor website](https://enigma-infra.github.io/ENIGMA-Tremor/) 
 
-    :fontawesome-solid-envelope:{ style="color: #000000;" } Contact: m.laansma@amsterdamumc.nl
+    :fontawesome-solid-envelope:{ style="color: #000000;" } m.laansma@amsterdamumc.nl
 
 
 </div>

@@ -12,6 +12,6 @@ Check out these resources for implementing Nipoppy, data processing in Nipoppy, 
 
 -   :octicons-arrow-right-24: [__Processing: fsqc__](/docs/resources/how_to_guides/fsqc.md)
 
--   :octicons-arrow-right-24: [__Quality control: visual inspection__](/docs/resources/how_to_guides/qa_md)
+-   :octicons-arrow-right-24: [__Quality control: visual inspection__](/docs/resources/how_to_guides/qa.md)
 
 </div>
