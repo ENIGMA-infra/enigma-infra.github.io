@@ -9,10 +9,10 @@ This site provides an overview of the ENIGMA infrastructure project. Please refe
 
     [:octicons-arrow-right-24: People behind enigma-infra](team/people.md)
 
--   :fontawesome-solid-hospital-wide:{ .lg .middle } __Enigma-PD sites__
+-   :fontawesome-solid-hospital-wide:{ .lg .middle } __Enigma sites__
     
 
-    [:octicons-arrow-right-24: Global study populations](wg/pd/e_pd_sites.md)
+    [:octicons-arrow-right-24: Global study populations](wg/sites.md)
 
 -   :fontawesome-solid-institution:{ .lg .middle } __Institute Partners__
     
@@ -39,4 +39,4 @@ This site provides an overview of the ENIGMA infrastructure project. Please refe
 
 ## **Partnering institutes**
 
-![logos](./logos/Logo_Strip.png){ loading=lazy }
+![logos](./assests/logos/Logo_Strip.png){ loading=lazy }
