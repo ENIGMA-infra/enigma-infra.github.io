@@ -27,7 +27,7 @@ This site provides an overview of the ENIGMA infrastructure project. Please refe
 -   :material-brain:{ .lg .middle } __Resources__
     
 
-    [:octicons-arrow-right-24: Neuroinformatic tools](resources/open_science_toolstack.md)
+    [:octicons-arrow-right-24: Neuroinformatic tools](resources/overview.md)
 
 -   :material-typewriter:{ .lg .middle } __Blogs__
     
@@ -39,4 +39,4 @@ This site provides an overview of the ENIGMA infrastructure project. Please refe
 
 ## **Partnering institutes**
 
-![logos](./assests/logos/Logo_Strip.png){ loading=lazy }
+![logos](./assets/logos/Logo_Strip.png){ loading=lazy }

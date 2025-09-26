@@ -7,6 +7,7 @@ theme:
 
 features:
   - navigation.indexes
+  
 nav:
   - Welcome: index.md
   - Team:
@@ -18,13 +19,13 @@ nav:
   - Partners:
     - partners/LoS.md
   - Resources:
-    - Open Science Toolstack: resources/open_science_toolstack.md
-    - Setting up Nipoppy: resources/setting_up_nipoppy.md
+    - Open Science Toolstack: resources/open_science_tools/open_science_toolstack.md
+    - Setting up Nipoppy: resources/how_to_guides/setting_up_nipoppy.md
     - Processing: 
-      - FreeSurfer 7: resources/processing/freesurfer7.md
-      - FreeSurfer subsegmentations: resources/processing/freesurfer_subseg.md
-      - FreeSurfer Quality Control toolbox: resources/processing/fsqc.md
-    - Quality Assessment: resources/qa/overview.md
+      - FreeSurfer 7: resources/how_to_guides/freesurfer7.md
+      - FreeSurfer subsegmentations: resources/how_to_guides/freesurfer_subseg.md
+      - FreeSurfer Quality Control toolbox: resources/how_to_guides/fsqc.md
+    - Quality Assessment: resources/how_to_guides/qa.md
 
 plugins:
   - search
