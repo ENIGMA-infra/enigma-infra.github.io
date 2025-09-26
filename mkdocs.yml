@@ -2,8 +2,8 @@ site_name: ENIGMA infra
 repo_url: https://github.com/ENIGMA-infra/enigma-infra.github.io
 theme:
   name: material
-  logo: "logos/enigma_300DPI_small.png"
-  favicon: "logos/enigma_300DPI_small.png"
+  logo: "assets/logos/enigma_300DPI_small.png"
+  favicon: "assets/logos/enigma_300DPI_small.png"
 
 features:
   - navigation.indexes
