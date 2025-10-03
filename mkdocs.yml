@@ -12,8 +12,7 @@ nav:
   - Welcome: index.md
   - Team:
     - team/people.md 
-  - Working Groups:
-    - Sites: wg/sites.md
+  - Working Groups: wg/wgs.md
   - Reviews:
     - reviews/testimonials.md
   - Partners:
