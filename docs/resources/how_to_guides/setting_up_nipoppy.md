@@ -13,7 +13,7 @@ The ongoing collaboration between the ENIGMA working groups and Nipoppy team has
 For more information, see the [Nipoppy documentation](https://nipoppy.readthedocs.io/en/stable/index.html).
 
 ## Nipoppy installation
-For more information about the installation of Nipoppy, we refer to the [Nipoppy documentation installation page](https://nipoppy.readthedocs.io/en/stable/overview/installation.html). The recommended steps and commands are outlined below as well.
+The recommended steps and commands for the installation of Nipoppy are outlined below. For more information, we refer to the [Nipoppy documentation installation page](https://nipoppy.readthedocs.io/en/stable/overview/installation.html). 
 
 ### Step 1) Setting up a Python environment
 
@@ -37,7 +37,7 @@ Install Nipoppy by running:
 pip install nipoppy
 ```
 
-### Step 3) Check whether the installation was succesful
+### Step 3) Check whether the installation was successful
 
 If Nipoppy was installed successfully, The following command should print a usage message:
 
@@ -57,8 +57,7 @@ This is the scenario assumed by the Nipoppy [Quickstart page](https://nipoppy.re
 Follow this guide to:
 1. Create an empty Nipoppy directory tree
 2. Customize the manifest file
-3. Modify the global config file with paths
-4. Copy data into the Nipoppy directory tree
+3. Copy data into the Nipoppy directory tree
 
 ### Step 1) Create an empty Nipoppy directory tree
 
@@ -80,27 +79,13 @@ tree <dataset_root>
 
 The Nipoppy manifest file is a .tsv file that contains expected availability information about the participants, visits, sessions, and imaging datatypes available in a dataset. This file is **mandatory**.
 
-The manifest file is automatically created at `<dataset_root>/manifest.tsv` by nipoppy init and contains some example particpants. You have to modify the manifest file to describe your dataset. This is one of the few manual steps part of Nipoppy. We recommend downloading the manifest file or editing it in a text editor available on your cluster to add all participants and information about the visits, sessions, and data types. 
+The manifest file is automatically created at `<dataset_root>/manifest.tsv` by nipoppy init and contains some example participants. You have to modify the manifest file to describe your dataset. This is one of the few manual steps part of Nipoppy. We recommend downloading the manifest file or editing it in a text editor available on your cluster to add all participants and information about the visits, sessions, and data types. 
 
 > Note: if your dataset is cross-sectional (i.e. only has one time point), you still need to create a `session_id` for the manifest. In this case the value would be the same for all participants.
 
 You can read more about the manifest file and check out some examples in the [Nipoppy documentation](https://nipoppy.readthedocs.io/en/latest/explanations/manifest.html)
 
-### Step 3) Modify the global config file with paths
-
-The global configuration file is automatically created at `<dataset_root>/global_config.json`. Although it may look complex, it’s designed for machines rather than humans. This file provides Nipoppy with key information about your system, such as the locations of containers and the FreeSurfer license file.
-
-Required changes to the global configuration file:
-- Scroll down to `PIPELINE_VARIABLES` -> `PROCESSING`
-    - for `fmriprep` -> `FREESURFER_LICENSE_FILE` provide the path to your FreeSurfer license file
-    - for `fmriprep` -> `TEMPLATEFLOW_HOME` provide the path to an (empty) templateflow folder
-- If you are on a system that uses Singularity instead of Apptainer, you need to change `CONTAINER_CONFIG` -> `COMMAND` to `singularity` instead of `apptainer`.
-
-> **Note FreeSurfer license:** The FreeSurfer license file is a text file required to run FreeSurfer, containing a user-specific license key provided by the FreeSurfer developers. You can get it for free by completing a form at [the FreeSurfer website](https://surfer.nmr.mgh.harvard.edu/registration.html).
-
-> **Note TemplateFlow directory:** [Templateflow](https://www.templateflow.org/) is a library of neuroimaging templates (e.g. `MNI152NLin2009cAsym`) used by several popular processing pipelines, including fmriprep. To store these templates, we recommend creating an empty directory called `templateflow` in the `containers` directory. The first time fmriprep is run, it will attempt to download templates to this directory, which will require the server to be connected to the internet.
-
-### Step 4) Copy data into the Nipoppy directory tree
+### Step 3) Copy data into the Nipoppy directory tree
 
 It is time to [copy and reorganize](https://nipoppy.readthedocs.io/en/stable/how_to_guides/user_guide/organizing_imaging.html) your raw imaging data to prepare them for BIDS conversion. Once this is done, you can find how to perform the BIDSification within the Nipoppy framework [here](https://nipoppy.readthedocs.io/en/stable/how_to_guides/user_guide/bids_conversion.html). We recommend applying a containerized BIDS-conversion pipeline that can be run within Nipoppy. 
 
@@ -121,5 +106,6 @@ If the existing BIDS data does not have session-level folders, Nipoppy will crea
 If it is feasible to redo the BIDSification to include session folders, we recommend doing so since this is considered good practice. Otherwise, Nipoppy can still be run, but you will need to make some manual changes. For more information, see [here](https://nipoppy.readthedocs.io/en/stable/how_to_guides/init/bids.html#bids-data-without-sessions)
 
 ### Starting from data already processed with FreeSurfer7
+
 
 We still encourage you to use Nipoppy to organize your source and/or BIDS data with your processed FS7 output to make use of automated trackers and downstream subsegmentation processing. However, you may need to some help depending on your version of FreeSurfer and naming convention of `participant_id`. Reach out to us on our [Discord channel](https://discord.gg/dQGYADCCMB) and we would be happy to help! 
