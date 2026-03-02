@@ -30,10 +30,11 @@ With the ENIGMA‑PD list integrated into the tool, sites can annotate their dat
 - Select **ENIGMA-PD** as configuration.
 - Upload a TSV file containing demographic and clinical variables.  
 - **Column annotation**: assign each column to a category (e.g., participant ID, diagnosis, assessment tool).  
-- **Value annotation**: For assessment‑related columns, select the matching term from the ENIGMA‑PD list.
+- **Value annotation**: for assessment‑related columns, select the matching term from the ENIGMA‑PD list.
   - Mark missing values.  
   - Optionally add short human‑readable descriptions for uncommon variables.  
-- Download a standardized annotation file that serves as a clean, robust data dictionary.  
+- Download a standardized annotation file that serves as a clean, robust data dictionary.
+- **Privacy note:** although this is a web interface, your data are used only to populate the annotation interface (read columns and possible values). The dataset is **not uploaded for storage** and is **not retained by Neurobagel**.
 
 ### Why this helps
 - Produces a consistent, machine‑readable data dictionary for each cohort.  
