@@ -4,6 +4,7 @@ All you need to know about using the Neurobagel Annotation Tool
 ## Why this matters  
 As ENIGMA‑PD moves toward sharing richer clinical, cognitive, and neuropsychiatric data across sites, we need a consistent and reliable way to interpret variables. Manual data dictionaries in spreadsheets are prone to typos, inconsistent naming, and misunderstandings about what each variable represents.  
 The Neurobagel workflow provides a structured, user‑friendly way to standardize how we describe clinical data, making it easier to reuse datasets, combine them across sites, and support ENIGMA-PD projects with more advanced clinical measures.
+In the future, we hope that the standardized annotations will make it easier for ENIGMA-PD to discover data availability across sites for ongoing and new projects.
 
 ---
 
@@ -29,16 +30,19 @@ With the ENIGMA‑PD list integrated into the tool, sites can annotate their dat
 - Go to [https://beta-annotate.neurobagel.org/](https://beta-annotate.neurobagel.org/)
 - Select **ENIGMA-PD** as configuration.
 - Upload a TSV file containing demographic and clinical variables.  
-- **Column annotation**: assign each column to a category (e.g., participant ID, diagnosis, assessment tool).  
+- **Column annotation**: assign each column or group of columns to a category by clicking on them.  
+  - First, we ask you to assign columns about common demographic categories  (e.g., participant ID, age,  diagnosis, etc) 
+  - Next you assign the remaining columns to entries in the ENIGMA-PD list (e.g. MoCA)
 - **Value annotation**: for assessment‑related columns, select the matching term from the ENIGMA‑PD list.
   - Mark missing values.  
   - Optionally add short human‑readable descriptions for uncommon variables.  
 - Download a standardized annotation file that serves as a clean, robust data dictionary.
-- **Privacy note:** although this is a web interface, your data are used only to populate the annotation interface (read columns and possible values). The dataset is **not uploaded for storage** and is **not retained by Neurobagel**.
+- **Privacy note:** although the annotation interface is a web app, it runs entirely on your computer and Neurobagel **does not upload any data or retain data**. Your data are used only to populate the annotation interface (read columns and possible values).
 
 ### Why this helps
 - Produces a consistent, machine‑readable data dictionary for each cohort.  
-- Reduces human error compared to manual data dictionaries.  
+- Reduces human error compared to manual data dictionaries. 
+(If you make a mistake during annotation, you can simply load your data dictionary into the tool again and correct it)
 - Makes datasets easier to understand, reuse, and combine.  
 
 **Check out the Neurobagel documentation [here](https://neurobagel.org/)**  
