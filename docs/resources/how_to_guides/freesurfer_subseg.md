@@ -76,7 +76,7 @@ nipoppy pipeline install --dataset <dataset_root> 17800572
 ```
 When the pipeline is installed, you may need to change the permission of the downloaded python script. Go to `<dataset_root>/pipelines/extraction/fs_subseg_stats-0.2/` and run `chmod 777 fs_subseg_stats.py`. Then, you can simply run
 ```bash
-nipoppy extract --pipeline fs_subseg_stats --dataset <dataset_root>
+nipoppy extract --pipeline fs_subseg_stats --pipeline-version 0.2 --dataset <dataset_root>
 ```
 to get things going. You can find the extracted data under `<dataset_root>/derivatives/freesurfer_subseg/1.0/idp/fs_subseg_stats-0.2/`.
 
