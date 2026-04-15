@@ -3,7 +3,7 @@
 ## Overview of containers
 We will be using containerized pipelines for data processing. This means that they are self-contained software environments that package all the tools, dependencies, and code needed to run each step of a data analysis pipeline reproducibly and consistently across systems. To download and run containers, you need a container platform, either Apptainer/Singularity or Docker. We strongly suggest Apptainer/Singularity, which is fully supported by Nipoppy. Docker can be used if you have admin rights to the computer/server you are using, or you work on something other than a Linux system (like a Mac). Using Nipoppy with Docker is possible though will likely require additional help -- reach out to us on our [Discord channel](https://discord.gg/dQGYADCCMB) and we would be happy to chat!
 
-![container_infographic](../../assets/images/container_infographic.png)
+<img src="../../assets/images/container_infographic.png" alt="container infographic" width="50%">
 *Image generated using Microsoft Copilot.*
 
 ## Checking for an existing installation
@@ -37,5 +37,6 @@ docker pull <repository>/<pipeline>:<version>
 
 ## Storing container images
 Nipoppy encourages the use of a common directory for storing container images, which can be shared across datasets/individuals. This directory can be anywhere on a system. 
+
 
 **Note:** In the global config file, `<NIPOPPY_DPATH_CONTAINERS>` should be replaced by the actual path to that directory. We encourage you to create a symlink (= a shortcut pointing to another file or directory, allowing access from a different location without copying the original) from the `<DATASET_ROOT>/containers directory` inside the Nipoppy dataset to the shared container store location. This makes it easy for anyone inspecting the dataset to find the containers. If you create this symlink, you don’t need to set `<NIPOPPY_DPATH_CONTAINERS>` manually, because Nipoppy will automatically use `<DATASET_ROOT>/containers` by default.
